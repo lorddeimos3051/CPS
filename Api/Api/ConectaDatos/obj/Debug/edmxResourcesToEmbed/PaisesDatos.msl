@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="PaisesModelStoreContainer" CdmEntityContainer="PaisesEntities">
+    <EntitySetMapping Name="Pais">
+      <EntityTypeMapping TypeName="PaisesModel.Pais">
+        <MappingFragment StoreEntitySet="Pais">
+          <ScalarProperty Name="codRegion" ColumnName="codRegion" />
+          <ScalarProperty Name="codPais" ColumnName="codPais" />
+          <ScalarProperty Name="Pais1" ColumnName="Pais" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

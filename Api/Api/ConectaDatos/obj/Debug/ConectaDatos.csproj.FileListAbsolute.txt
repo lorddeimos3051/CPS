@@ -1,0 +1,12 @@
+C:\ProyectosAngular\Api\Api\ConectaDatos\bin\Debug\ConectaDatos.dll.config
+C:\ProyectosAngular\Api\Api\ConectaDatos\bin\Debug\ConectaDatos.dll
+C:\ProyectosAngular\Api\Api\ConectaDatos\bin\Debug\ConectaDatos.pdb
+C:\ProyectosAngular\Api\Api\ConectaDatos\bin\Debug\EntityFramework.dll
+C:\ProyectosAngular\Api\Api\ConectaDatos\bin\Debug\EntityFramework.SqlServer.dll
+C:\ProyectosAngular\Api\Api\ConectaDatos\bin\Debug\EntityFramework.xml
+C:\ProyectosAngular\Api\Api\ConectaDatos\bin\Debug\EntityFramework.SqlServer.xml
+C:\ProyectosAngular\Api\Api\ConectaDatos\obj\Debug\ConectaDatos.csprojAssemblyReference.cache
+C:\ProyectosAngular\Api\Api\ConectaDatos\obj\Debug\ConectaDatos.csproj.CoreCompileInputs.cache
+C:\ProyectosAngular\Api\Api\ConectaDatos\obj\Debug\ConectaDatos.csproj.CopyComplete
+C:\ProyectosAngular\Api\Api\ConectaDatos\obj\Debug\ConectaDatos.dll
+C:\ProyectosAngular\Api\Api\ConectaDatos\obj\Debug\ConectaDatos.pdb

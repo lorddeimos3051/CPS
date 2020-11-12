@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="RegionModelStoreContainer" CdmEntityContainer="RegionesEntities">
+    <EntitySetMapping Name="Region">
+      <EntityTypeMapping TypeName="RegionModel.Region">
+        <MappingFragment StoreEntitySet="Region">
+          <ScalarProperty Name="codRegion" ColumnName="codRegion" />
+          <ScalarProperty Name="NombreRegion" ColumnName="NombreRegion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
