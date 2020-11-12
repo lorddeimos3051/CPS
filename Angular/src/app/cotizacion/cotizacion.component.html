@@ -1,0 +1,30 @@
+<h2>Formulario de cotizacion</h2>
+
+<form (submit) = "submit()" [formGroup]="CotizadorForm">
+    <div class="form-group">
+        <label for="peso">Peso </label>
+        <input type="text" class="form-control" formControlName="peso">
+    </div>
+    <div class="form-group">
+        <label for="alto">Alto </label>
+        <input type="text" class="form-control" formControlName="alto">
+    </div>
+    <div class="form-group">
+        <label for="largo">Largo </label>
+        <input type="text" class="form-control" formControlName="largo">
+    </div>
+    <div class="form-group">
+        <label for="ancho">Ancho </label>
+        <input type="text" class="form-control" formControlName="ancho">
+    </div>
+
+    <div class="form-group">
+        <label for="pais">Pais destino</label>
+        <select class="form-control" id="pais" name="pais">
+            <option *ngfor="let itm of paisesList" [value]="itm.value">{{itm.text}}</option>
+        </select>
+    </div>
+
+    <button type="submit" class="btn btn-success">Enviar</button>
+    <button type="button" class="btn btn-default" (click)="refrescar()">Cancelar</button>
+</form>
